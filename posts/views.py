@@ -1,7 +1,7 @@
 from django.views.generic import (
     ListView,
     DetailView,
-    CreateView
+    CreateView,
 )
 from .models import Post
 

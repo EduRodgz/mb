@@ -4,7 +4,7 @@
 {% block title %}New Post{% endblock title %}
 
 {% block content %}
-<h1>New Post <a href="{% url 'new' %}"></a></h1>
+<h1>New Post</h1>
 <form method="Post">
     {% csrf_token %}
     {{ form.as_p }}
